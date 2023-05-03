@@ -9,10 +9,10 @@ const storage = multer.diskStorage({
         const rootDir = path.dirname(require.main.filename) 
         
         if(file.fieldname === "photo"){
-            cb(null , path.join( rootDir,"/public/userPhotos"))
+            cb(null , path.join( rootDir,"/public/userPhotos"));
         }
         else {
-            cb(null , path.join( rootDir,"/public/storyImages"))
+            cb(null , path.join( rootDir,"/public/storyImages"));
         }
 
     } ,

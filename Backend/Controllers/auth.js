@@ -59,7 +59,7 @@ const login  = asyncErrorWrapper (async(req,res,next) => {
 
 
 const forgotpassword  = asyncErrorWrapper( async (req,res,next) => {
-    const {URI,EMAIL_USERNAME} = process.env ; 
+    const {URI,EMAIL_USER} = process.env ;
 
     const resetEmail = req.body.email  ;
 
@@ -76,15 +76,21 @@ const forgotpassword  = asyncErrorWrapper( async (req,res,next) => {
     const resetPasswordUrl = `${URI}/resetpassword?resetPasswordToken=${resetPasswordToken}`
 
     const emailTemplate = `
-    <h3 style="color : red "> Reset Your Password </h3>
+    <h3 style="color : red ">  Reset password </h3>
+    <p>You have requested for a password reset</p>
+<p>Please use the url link below to reset your password by either clicking on it or copy pasting it to your desired browser</p>
+<p>This reset url link expires in next 1 hour.</p>
+<p>Please ignore this email if you are not the one who requiested for password reset!!!</p>
     <p> This <a href=${resetPasswordUrl}   
-     target='_blank'  >Link </a> will expire in 1 hours </p> 
+     target='_blank'  >Link </a> will expire in next 1 hour </p> 
+     <p>Regards...</p>
+<p>lenox blog app Team</p>
     `;
 
     try {
 
         sendEmail({
-            from: EMAIL_USERNAME,
+            from: EMAIL_USER,
             to: resetEmail, 
             subject: " ✔ Reset Your Password  ✔", 
             html: emailTemplate

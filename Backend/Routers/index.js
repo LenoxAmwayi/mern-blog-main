@@ -7,7 +7,7 @@ const storyRoute = require("./story")
 const userRoute = require("./user")
 const commentRoute = require("./comment")
 
-router.use("/auth",authRoute)
+router.use("/auth",authRoute);
 router.use("/story",storyRoute)
 router.use("/user",userRoute)
 router.use("/comment",commentRoute)

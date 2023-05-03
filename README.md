@@ -148,15 +148,14 @@ This project was created using the following technologies.
 
 ## Author
 
-- Github: [@bert-hutapea](https://github.com/berthutapea)
-- Linkedin: [@gilbert-hutapea](https://www.linkedin.com/in/gilberthutapea/)
-- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
+- Github: [@lenox-amwayi](https://github.com/LenoxAmwayi)
+- Email: [lenoxzedamwayi@gmail.com](mailto:lenoxzedamwayi@gmail.com)
 
 ## License
 
 MIT License
 
-Copyright (c) 2022 Gilbert Hutapea
+Copyright (c) 2023 at 10:45 A.M Lenox Amwayi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
