@@ -33,12 +33,12 @@ $ npm run  start (to start the frontend)
 
 In the second terminal
 
-- cd Backend and Set environment variables in config.env under ./config
+- cd Backend and Set environment variables in .env 
 - Create your mongoDB connection url, which you'll use as your MONGO_URI
 - Supply the following credentials
 
 ```
-#  ---  Config.env  ---
+#  ---  .env  ---
 
 NODE_ENV = development
 PORT =5000
@@ -50,7 +50,7 @@ RESET_PASSWORD_EXPIRE = 3600000
 
 # Nodemailer
 
-SMTP_HOST =smtp.gmail.com
+SMTP_HOST =smtp-mail.outlook.com
 SMTP_PORT =587
 EMAIL_USERNAME = example@gmail.com
 EMAIL_PASS = your_password
@@ -148,7 +148,12 @@ This project was created using the following technologies.
 
 ## Author
 
+<<<<<<< HEAD
 - Github: [@lenox-amwayi](https://github.com/LenoxAmwayi)
+=======
+- Github: [@lenox amwayi](https://github.com/LenoxAmwayi)
+- Linkedin: [@lenox amwayi](https://www.linkedin.com/in/lenox amwayi)
+>>>>>>> ee7d3ddb542d30104ddc46bfaa615a373b500f7f
 - Email: [lenoxzedamwayi@gmail.com](mailto:lenoxzedamwayi@gmail.com)
 
 ## License
