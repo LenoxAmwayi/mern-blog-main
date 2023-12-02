@@ -152,7 +152,7 @@ This project was created using the following technologies.
 - Github: [@lenox-amwayi](https://github.com/LenoxAmwayi)
 =======
 - Github: [@lenox amwayi](https://github.com/LenoxAmwayi)
-- Linkedin: [@lenox amwayi](https://www.linkedin.com/in/lenoxamwayi)
+- Linkedin: [@lenox amwayi](https://www.linkedin.com/in/lenox-amwayi/)
 >>>>>>> ee7d3ddb542d30104ddc46bfaa615a373b500f7f
 - Email: [lenoxzedamwayi@gmail.com](mailto:lenoxzedamwayi@gmail.com)
 
